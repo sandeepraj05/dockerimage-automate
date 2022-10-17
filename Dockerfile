@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 
-CMD echo "Hello Sandeep-raj"
+CMD echo "Hi this is Sandeep-raj"
