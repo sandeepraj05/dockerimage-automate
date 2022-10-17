@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag sandeepraj0105/dockerimage-automate:latest
     - name: push the Docker image
-      run: docker login -u sandeepraj0105 -p ${{sectres.DOCKER_TOKEN }} && docker push sandeepraj0105/dockerimage-automate:latest
+      run: docker login -u sandeepraj0105 -p ${{secrets.DOCKER_TOKEN }} && docker push sandeepraj0105/dockerimage-automate:latest
